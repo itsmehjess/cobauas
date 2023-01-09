@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright ©2022 Novita Delvia                                      -->
+<!--  Permission is hereby granted, free of charge, to any person       -->
+<!--  obtaining a copy of this software and associated documentation    -->
+<!--  files (the "Software"), to deal in the Software without           -->
+<!--  restriction, including without limitation the rights to use,      -->
+<!--  copy, modify, merge, publish, distribute, sublicense, and/or sell -->
+<!--  copies of the Software, and to permit persons to whom the         -->
+<!--  Software is furnished to do so, subject to the following          -->
+<!--  conditions:                                                       -->
+<!--  The above copyright notice and this permission notice shall be    -->
+<!--  included in all copies or substantial portions of the Software.   -->
+<!--  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,   -->
+<!--  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES   -->
+<!--  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND          -->
+<!--  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT       -->
+<!--  HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,      -->
+<!--  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING      -->
+<!--  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR     -->
+<!--  OTHER DEALINGS IN THE SOFTWARE.                                   -->
+<!--  Complies with the AIML 1.0 Standard                               -->
+<!--  as adopted by the ALICE A.I. Foundation.                          -->
+<!--  Last modified 06-24-2022                                          -->
+<!--  file: admin_added.aiml                                            -->
+<aiml version="1.0">
+  <category>
+    <pattern>CIOVITALAH</pattern>
+    <template>Ciovita merupakan chatbot Virtual Assistant yang dapat memberi informasi tentang Cioccolato Brownie Semarang. Ciovita dapat diakses melalui Line, Telegram, dan Website.</template>
+  </category>
+  <category>
+    <pattern>CIOVITA</pattern>
+    <template>
+      <srai>CIOVITALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CIOVITA *</pattern>
+    <template>
+      <srai>CIOVITALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CIOVITA</pattern>
+    <template>
+      <srai>CIOVITALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CIOVITA *</pattern>
+    <template>
+      <srai>CIOVITALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CIOVITA*</pattern>
+    <template>
+      <srai>CIOVITALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CIOVITA*</pattern>
+    <template>
+      <srai>CIOVITALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HALOLAH</pattern>
+    <template>Hai, kenalin aku Ciovita. Virtual Assistant Cioccolato Brownie.</template>
+  </category>
+  <category>
+    <pattern>HALO</pattern>
+    <template>
+      <srai>HALOLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* HALO *</pattern>
+    <template>
+      <srai>HALOLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* HALO</pattern>
+    <template>
+      <srai>HALOLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HALO *</pattern>
+    <template>
+      <srai>HALOLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* HALO*</pattern>
+    <template>
+      <srai>HALOLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HALO*</pattern>
+    <template>
+      <srai>HALOLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAILAH</pattern>
+    <template>Halo, kenalin aku Ciovita. Virtual Assistant Cioccolato Brownie.</template>
+  </category>
+  <category>
+    <pattern>HAI</pattern>
+    <template>
+      <srai>HAILAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* HAI *</pattern>
+    <template>
+      <srai>HAILAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* HAI</pattern>
+    <template>
+      <srai>HAILAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAI *</pattern>
+    <template>
+      <srai>HAILAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* HAI*</pattern>
+    <template>
+      <srai>HAILAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAI*</pattern>
+    <template>
+      <srai>HAILAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>APA KABARLAH</pattern>
+    <template>Baiklah masa enggak, kabarmu gimana nih?</template>
+  </category>
+  <category>
+    <pattern>APA KABAR</pattern>
+    <template>
+      <srai>APA KABARLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* APA KABAR *</pattern>
+    <template>
+      <srai>APA KABARLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* APA KABAR</pattern>
+    <template>
+      <srai>APA KABARLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>APA KABAR *</pattern>
+    <template>
+      <srai>APA KABARLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* APA KABAR*</pattern>
+    <template>
+      <srai>APA KABARLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>APA KABAR*</pattern>
+    <template>
+      <srai>APA KABARLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>BAIKLAH</pattern>
+    <that>BAIKLAH MASA ENGGAK KABARMU GIMANA NIH</that>
+    <template>
+      <random>
+        <li>Ikut seneng deh</li>
+        <li>Seneng deh dengernya</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>BAIK</pattern>
+    <that>BAIKLAH MASA ENGGAK KABARMU GIMANA NIH</that>
+    <template>
+      <srai>BAIKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* BAIK *</pattern>
+    <that>BAIKLAH MASA ENGGAK KABARMU GIMANA NIH</that>
+    <template>
+      <srai>BAIKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* BAIK</pattern>
+    <that>BAIKLAH MASA ENGGAK KABARMU GIMANA NIH</that>
+    <template>
+      <srai>BAIKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>BAIK *</pattern>
+    <that>BAIKLAH MASA ENGGAK KABARMU GIMANA NIH</that>
+    <template>
+      <srai>BAIKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* BAIK*</pattern>
+    <that>BAIKLAH MASA ENGGAK KABARMU GIMANA NIH</that>
+    <template>
+      <srai>BAIKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>BAIK*</pattern>
+    <that>BAIKLAH MASA ENGGAK KABARMU GIMANA NIH</that>
+    <template>
+      <srai>BAIKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>BURUKLAH</pattern>
+    <that>BAIKLAH MASA ENGGAK KABARMU GIMANA NIH</that>
+    <template>
+      <random>
+        <li>Semangat ya</li>
+        <li>Tetap semangat</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>BURUK</pattern>
+    <that>BAIKLAH MASA ENGGAK KABARMU GIMANA NIH</that>
+    <template>
+      <srai>BURUKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* BURUK *</pattern>
+    <that>BAIKLAH MASA ENGGAK KABARMU GIMANA NIH</that>
+    <template>
+      <srai>BURUKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* BURUK</pattern>
+    <that>BAIKLAH MASA ENGGAK KABARMU GIMANA NIH</that>
+    <template>
+      <srai>BURUKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>BURUK *</pattern>
+    <that>BAIKLAH MASA ENGGAK KABARMU GIMANA NIH</that>
+    <template>
+      <srai>BURUKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* BURUK*</pattern>
+    <that>BAIKLAH MASA ENGGAK KABARMU GIMANA NIH</that>
+    <template>
+      <srai>BURUKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>BURUK*</pattern>
+    <that>BAIKLAH MASA ENGGAK KABARMU GIMANA NIH</that>
+    <template>
+      <srai>BURUKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>NAMALAH</pattern>
+    <template>
+      <random>
+        <li>Nama usaha adalah Cioccolato Brownie</li>
+        <li>Cioccolato Brownie</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>NAMA</pattern>
+    <template>
+      <srai>NAMALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* NAMA *</pattern>
+    <template>
+      <srai>NAMALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* NAMA</pattern>
+    <template>
+      <srai>NAMALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>NAMA *</pattern>
+    <template>
+      <srai>NAMALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* NAMA*</pattern>
+    <template>
+      <srai>NAMALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>NAMA*</pattern>
+    <template>
+      <srai>NAMALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>OWNERLAH</pattern>
+    <template>
+      <random>
+        <li>Pemilik Cioccolato Brownie adalah Meilinda Widiastuti.</li>
+        <li>Meilinda Widiastuti adalah pemilik Cioccolato Brownie.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>OWNER</pattern>
+    <template>
+      <srai>OWNERLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OWNER *</pattern>
+    <template>
+      <srai>OWNERLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OWNER</pattern>
+    <template>
+      <srai>OWNERLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>OWNER *</pattern>
+    <template>
+      <srai>OWNERLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* OWNER*</pattern>
+    <template>
+      <srai>OWNERLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>OWNER*</pattern>
+    <template>
+      <srai>OWNERLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PEMILIK</pattern>
+    <template>
+      <srai>OWNERLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* PEMILIK *</pattern>
+    <template>
+      <srai>OWNERLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* PEMILIK</pattern>
+    <template>
+      <srai>OWNERLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PEMILIK *</pattern>
+    <template>
+      <srai>OWNERLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* PEMILIK*</pattern>
+    <template>
+      <srai>OWNERLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PEMILIK*</pattern>
+    <template>
+      <srai>OWNERLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TAHUNLAH</pattern>
+    <template>
+      <random>
+        <li>Cioccolato Brownie berdiri pada tahun 2020.</li>
+        <li>Tahun 2020 Cioccolato Brownie berdiri.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>TAHUN</pattern>
+    <template>
+      <srai>TAHUNLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TAHUN *</pattern>
+    <template>
+      <srai>TAHUNLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TAHUN</pattern>
+    <template>
+      <srai>TAHUNLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TAHUN *</pattern>
+    <template>
+      <srai>TAHUNLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TAHUN*</pattern>
+    <template>
+      <srai>TAHUNLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TAHUN*</pattern>
+    <template>
+      <srai>TAHUNLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TENTANGLAH</pattern>
+    <template>
+      <random>
+        <li>Cioccolato Brownie didirikan oleh Meilinda Widiastuti pada tahun 2020.</li>
+        <li>Tahun 2020 Cioccolato Brownie didirikan oleh Meilinda Widiastuti.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>TENTANG</pattern>
+    <template>
+      <srai>TENTANGLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TENTANG *</pattern>
+    <template>
+      <srai>TENTANGLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TENTANG</pattern>
+    <template>
+      <srai>TENTANGLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TENTANG *</pattern>
+    <template>
+      <srai>TENTANGLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TENTANG*</pattern>
+    <template>
+      <srai>TENTANGLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TENTANG*</pattern>
+    <template>
+      <srai>TENTANGLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>LIMITED</pattern>
+    <template>
+      <random>
+        <li>Limited Edition - Menu Baru Edisi Summer. Brownies Talas</li>
+        <li>Menu Baru Edisi Summer - Brownies Talas (Limited Edition)</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>LIMITED EDITION</pattern>
+    <template>
+      <srai>LIMITED</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* LIMITED EDITION *</pattern>
+    <template>
+      <srai>LIMITED</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* LIMITED EDITION</pattern>
+    <template>
+      <srai>LIMITED</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>LIMITED EDITION *</pattern>
+    <template>
+      <srai>LIMITED</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* LIMITED EDITION*</pattern>
+    <template>
+      <srai>LIMITED</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>LIMITED EDITION*</pattern>
+    <template>
+      <srai>LIMITED</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CIO</pattern>
+    <template>
+      <random>
+        <li>Cioccolato Brownie adalah usaha yang menjual produk makanan berupa fudgy brownies.</li>
+        <li>Usaha yang menjual produk makanan berupa fudgy brownies adalah Cioccolato Brownie.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>CIOCCOLATO BROWNIE</pattern>
+    <template>
+      <srai>CIO</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CIOCCOLATO BROWNIE *</pattern>
+    <template>
+      <srai>CIO</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CIOCCOLATO BROWNIE</pattern>
+    <template>
+      <srai>CIO</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CIOCCOLATO BROWNIE *</pattern>
+    <template>
+      <srai>CIO</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* CIOCCOLATO BROWNIE*</pattern>
+    <template>
+      <srai>CIO</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CIOCCOLATO BROWNIE*</pattern>
+    <template>
+      <srai>CIO</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>FUDGY</pattern>
+    <template>
+      <random>
+        <li>Fudgy brownies adalah jenis brownies panggang dengan tekstur padat, lembab di dalam, kering di luar, namun tetap lembut jika dimakan.</li>
+        <li>Jenis brownies panggang dengan tekstur padat, lembab di dalam, kering di luar, namun tetap lembut jika dimakan disebut Fudgy brownies.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>FUDGY BROWNIES</pattern>
+    <template>
+      <srai>FUDGY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FUDGY BROWNIES *</pattern>
+    <template>
+      <srai>FUDGY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FUDGY BROWNIES</pattern>
+    <template>
+      <srai>FUDGY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>FUDGY BROWNIES *</pattern>
+    <template>
+      <srai>FUDGY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* FUDGY BROWNIES*</pattern>
+    <template>
+      <srai>FUDGY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>FUDGY BROWNIES*</pattern>
+    <template>
+      <srai>FUDGY</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TOP</pattern>
+    <template>
+      <random>
+        <li>Topping yang tersedia yaitu choco crunchy, greentea crunchy, almond, oreo, chococips, dan cheese.</li>
+        <li>Toppingnya ada chococips, cheese, choco crunchy, greentea crunchy, almond, dan oreo.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>TOPPING</pattern>
+    <template>
+      <srai>TOP</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TOPPING *</pattern>
+    <template>
+      <srai>TOP</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TOPPING</pattern>
+    <template>
+      <srai>TOP</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TOPPING *</pattern>
+    <template>
+      <srai>TOP</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TOPPING*</pattern>
+    <template>
+      <srai>TOP</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TOPPING*</pattern>
+    <template>
+      <srai>TOP</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>UKUR</pattern>
+    <template>
+      <random>
+        <li>Tersedia 2 ukuran yaitu large size 30x10cm isi 12 potong dan personal size 10x10cm isi 4 potong.</li>
+        <li>Ukurannya ada personal size 10x10cm isi 4 potong dan large size 30x10cm isi 12 potong.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>UKURAN</pattern>
+    <template>
+      <srai>UKUR</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* UKURAN *</pattern>
+    <template>
+      <srai>UKUR</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* UKURAN</pattern>
+    <template>
+      <srai>UKUR</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>UKURAN *</pattern>
+    <template>
+      <srai>UKUR</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* UKURAN*</pattern>
+    <template>
+      <srai>UKUR</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>UKURAN*</pattern>
+    <template>
+      <srai>UKUR</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MENULAH</pattern>
+    <template>
+      <random>
+        <li>Fudgy brownies large size Rp 45.000 dan personal size Rp 17.000. Dengan berbagai macam topping yaitu choco crunchy, greentea crunchy, almond, oreo, chococips, dan cheese.</li>
+        <li>Fudgy brownies personal size 17.000 dan large size Rp 45.000. Dengan berbagai macam topping yaitu chococips, cheese, choco crunchy, greentea crunchy, almond, dan oreo.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>MENU</pattern>
+    <template>
+      <srai>MENULAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* MENU *</pattern>
+    <template>
+      <srai>MENULAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* MENU</pattern>
+    <template>
+      <srai>MENULAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MENU *</pattern>
+    <template>
+      <srai>MENULAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* MENU*</pattern>
+    <template>
+      <srai>MENULAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MENU*</pattern>
+    <template>
+      <srai>MENULAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HARGALAH</pattern>
+    <template>
+      <random>
+        <li>Fudgy brownies large size Rp 45.000 dan personal size Rp 17.000</li>
+        <li>Fudgy brownies personal size Rp 17.000 dan large size Rp 45.000</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>HARGA</pattern>
+    <template>
+      <srai>HARGALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* HARGA *</pattern>
+    <template>
+      <srai>HARGALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* HARGA</pattern>
+    <template>
+      <srai>HARGALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HARGA *</pattern>
+    <template>
+      <srai>HARGALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* HARGA*</pattern>
+    <template>
+      <srai>HARGALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HARGA*</pattern>
+    <template>
+      <srai>HARGALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WILAYAHLAH</pattern>
+    <template>
+      <random>
+        <li>Wilayah order kota Semarang</li>
+        <li>Kota Semarang</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>WILAYAH</pattern>
+    <template>
+      <srai>WILAYAHLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* WILAYAH *</pattern>
+    <template>
+      <srai>WILAYAHLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* WILAYAH</pattern>
+    <template>
+      <srai>WILAYAHLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WILAYAH *</pattern>
+    <template>
+      <srai>WILAYAHLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* WILAYAH*</pattern>
+    <template>
+      <srai>WILAYAHLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WILAYAH*</pattern>
+    <template>
+      <srai>WILAYAHLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PESANLAH</pattern>
+    <template>
+      <random>
+        <li>Mekanisme pemesanan dilakukan secara online melalui Instagram dan Whatsapp Cioccolato Brownie. Pemesanan menggunakan sistem Pre Order dan tidak ada minimal pemesanan.</li>
+        <li>Hubungi Instagram dan Whatsapp Cioccolato Brownie untuk melakukan pemesanan secara online. Pemesanan menggunakan sistem Pre Order dan tidak ada minimal pemesanan.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>PEMESANAN</pattern>
+    <template>
+      <srai>PESANLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* PEMESANAN *</pattern>
+    <template>
+      <srai>PESANLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* PEMESANAN</pattern>
+    <template>
+      <srai>PESANLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PEMESANAN *</pattern>
+    <template>
+      <srai>PESANLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* PEMESANAN*</pattern>
+    <template>
+      <srai>PESANLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PESAN</pattern>
+    <template>
+      <srai>PESANLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* PESAN *</pattern>
+    <template>
+      <srai>PESANLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* PESAN</pattern>
+    <template>
+      <srai>PESANLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PESAN *</pattern>
+    <template>
+      <srai>PESANLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* PESAN*</pattern>
+    <template>
+      <srai>PESANLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PESAN*</pattern>
+    <template>
+      <srai>PESANLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>JAMLAH</pattern>
+    <template>
+      <random>
+        <li>Jam operasional 08.00 - 21.00 WIB</li>
+        <li>Jam operasional dimulai pukul 8 pagi hingga 9 malam</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>JAM</pattern>
+    <template>
+      <srai>JAMLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* JAM *</pattern>
+    <template>
+      <srai>JAMLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* JAM</pattern>
+    <template>
+      <srai>JAMLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>JAM *</pattern>
+    <template>
+      <srai>JAMLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* JAM*</pattern>
+    <template>
+      <srai>JAMLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>JAM*</pattern>
+    <template>
+      <srai>JAMLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>BAYARLAH</pattern>
+    <template>
+      <random>
+        <li>Pembayaran melalui transfer ke BCA 0091830344 a.n Meilinda Widiastuti atau tunai saat COD.</li>
+        <li>Pembayaran secara tunai saat COD atau transfer ke BCA 0091830344 a.n Meilinda Widiastuti.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>PEMBAYARAN</pattern>
+    <template>
+      <srai>BAYARLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* PEMBAYARAN *</pattern>
+    <template>
+      <srai>BAYARLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* PEMBAYARAN</pattern>
+    <template>
+      <srai>BAYARLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PEMBAYARAN *</pattern>
+    <template>
+      <srai>BAYARLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* PEMBAYARAN*</pattern>
+    <template>
+      <srai>BAYARLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PEMBAYARAN*</pattern>
+    <template>
+      <srai>BAYARLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>BAYAR</pattern>
+    <template>
+      <srai>BAYARLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* BAYAR *</pattern>
+    <template>
+      <srai>BAYARLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* BAYAR</pattern>
+    <template>
+      <srai>BAYARLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>BAYAR *</pattern>
+    <template>
+      <srai>BAYARLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* BAYAR*</pattern>
+    <template>
+      <srai>BAYARLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>BAYAR*</pattern>
+    <template>
+      <srai>BAYARLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KIRIMLAH</pattern>
+    <template>
+      <random>
+        <li>Pengiriman melalui Gosend/Grabexpress/COD Manyaran dan Sampokong.</li>
+        <li>COD Manyaran dan Sampokong atau dikirim melalui Gosend/Grabexpress.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>PENGIRIMAN</pattern>
+    <template>
+      <srai>KIRIMLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* PENGIRIMAN *</pattern>
+    <template>
+      <srai>KIRIMLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* PENGIRIMAN</pattern>
+    <template>
+      <srai>KIRIMLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PENGIRIMAN *</pattern>
+    <template>
+      <srai>KIRIMLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* PENGIRIMAN*</pattern>
+    <template>
+      <srai>KIRIMLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PENGIRIMAN*</pattern>
+    <template>
+      <srai>KIRIMLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KIRIM</pattern>
+    <template>
+      <srai>KIRIMLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* KIRIM *</pattern>
+    <template>
+      <srai>KIRIMLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* KIRIM</pattern>
+    <template>
+      <srai>KIRIMLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KIRIM *</pattern>
+    <template>
+      <srai>KIRIMLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* KIRIM*</pattern>
+    <template>
+      <srai>KIRIMLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>KIRIM*</pattern>
+    <template>
+      <srai>KIRIMLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TERIMA KASIHLAH</pattern>
+    <template>Terima kasih telah mengobrol dengan Ciovita, kapan - kapan lagi.</template>
+  </category>
+  <category>
+    <pattern>TERIMA KASIH</pattern>
+    <template>
+      <srai>TERIMA KASIHLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TERIMA KASIH *</pattern>
+    <template>
+      <srai>TERIMA KASIHLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TERIMA KASIH</pattern>
+    <template>
+      <srai>TERIMA KASIHLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TERIMA KASIH *</pattern>
+    <template>
+      <srai>TERIMA KASIHLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TERIMA KASIH*</pattern>
+    <template>
+      <srai>TERIMA KASIHLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TERIMA KASIH*</pattern>
+    <template>
+      <srai>TERIMA KASIHLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MAKASIH</pattern>
+    <template>
+      <srai>TERIMA KASIHLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* MAKASIH *</pattern>
+    <template>
+      <srai>TERIMA KASIHLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* MAKASIH</pattern>
+    <template>
+      <srai>TERIMA KASIHLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MAKASIH *</pattern>
+    <template>
+      <srai>TERIMA KASIHLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* MAKASIH*</pattern>
+    <template>
+      <srai>TERIMA KASIHLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MAKASIH*</pattern>
+    <template>
+      <srai>TERIMA KASIHLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ADALAH</pattern>
+    <template>Mohon maaf brownies ada ketika Pre Order. Mau tau kapan Pre Ordernya?</template>
+  </category>
+  <category>
+    <pattern>ADA</pattern>
+    <template>
+      <srai>ADALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* ADA *</pattern>
+    <template>
+      <srai>ADALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* ADA</pattern>
+    <template>
+      <srai>ADALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ADA *</pattern>
+    <template>
+      <srai>ADALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* ADA*</pattern>
+    <template>
+      <srai>ADALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ADA*</pattern>
+    <template>
+      <srai>ADALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IYALAH</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>Pantau terus Intagram Cioccolato Brownie Semarang untuk mengetahui kapan pre-order nya.</template>
+  </category>
+  <category>
+    <pattern>YA</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>IYALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* YA *</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>IYALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* YA</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>IYALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>YA *</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>IYALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* YA*</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>IYALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>YA*</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>IYALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IYA</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>IYALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* IYA *</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>IYALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* IYA</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>IYALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IYA *</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>IYALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* IYA*</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>IYALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IYA*</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>IYALAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>GAKLAH</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>Okelah kalau begitu.</template>
+  </category>
+  <category>
+    <pattern>TIDAK</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>GAKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TIDAK *</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>GAKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TIDAK</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>GAKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TIDAK *</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>GAKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TIDAK*</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>GAKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TIDAK*</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>GAKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>GAK</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>GAKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* GAK *</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>GAKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* GAK</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>GAKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>GAK *</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>GAKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* GAK*</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>GAKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>GAK*</pattern>
+    <that>MOHON MAAF BROWNIES ADA KETIKA PRE ORDER MAU TAU KAPAN PRE ORDERNYA</that>
+    <template>
+      <srai>GAKLAH</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>LOC</pattern>
+    <template>
+      <random>
+        <li>Lokasi Cioccolato Brownie Semarang di Jl. Candi Prambanan Raya No. 610 Semarang. Tapi pemesanan hanya dilakukan secara online melalui Instagram dan Whatsapp.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>LOKASI</pattern>
+    <template>
+      <srai>LOC</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* LOKASI *</pattern>
+    <template>
+      <srai>LOC</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* LOKASI</pattern>
+    <template>
+      <srai>LOC</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>LOKASI *</pattern>
+    <template>
+      <srai>LOC</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* LOKASI*</pattern>
+    <template>
+      <srai>LOC</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>LOKASI*</pattern>
+    <template>
+      <srai>LOC</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>IG</pattern>
+    <template>
+      <random>
+        <li>Instagram Cioccolato Brownie Semarang dapat diakses melalui http://instagram.com/cioccolatobrownie.smg</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>INSTAGRAM</pattern>
+    <template>
+      <srai>IG</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INSTAGRAM *</pattern>
+    <template>
+      <srai>IG</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INSTAGRAM</pattern>
+    <template>
+      <srai>IG</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INSTAGRAM *</pattern>
+    <template>
+      <srai>IG</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* INSTAGRAM*</pattern>
+    <template>
+      <srai>IG</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>INSTAGRAM*</pattern>
+    <template>
+      <srai>IG</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WA</pattern>
+    <template>
+      <random>
+        <li>Whatsapp Cioccolato Brownie Semarang dapat diakses melalui https://wa.me/6282132625473</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>WHATSAPP</pattern>
+    <template>
+      <srai>WA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* WHATSAPP *</pattern>
+    <template>
+      <srai>WA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* WHATSAPP</pattern>
+    <template>
+      <srai>WA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHATSAPP *</pattern>
+    <template>
+      <srai>WA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* WHATSAPP*</pattern>
+    <template>
+      <srai>WA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHATSAPP*</pattern>
+    <template>
+      <srai>WA</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>LINEE</pattern>
+    <template>
+      <random>
+        <li>Line Ciovita dapat diakses melalui https://bit.ly/lineciovita</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>LINE</pattern>
+    <template>
+      <srai>LINEE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* LINE *</pattern>
+    <template>
+      <srai>LINEE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* LINE</pattern>
+    <template>
+      <srai>LINEE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>LINE *</pattern>
+    <template>
+      <srai>LINEE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* LINE*</pattern>
+    <template>
+      <srai>LINEE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>LINE*</pattern>
+    <template>
+      <srai>LINEE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TELE</pattern>
+    <template>
+      <random>
+        <li>Telegram Ciovita dapat diakses melalui https://t.me/CiovitaBot</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>TELEGRAM</pattern>
+    <template>
+      <srai>TELE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TELEGRAM *</pattern>
+    <template>
+      <srai>TELE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TELEGRAM</pattern>
+    <template>
+      <srai>TELE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TELEGRAM *</pattern>
+    <template>
+      <srai>TELE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* TELEGRAM*</pattern>
+    <template>
+      <srai>TELE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TELEGRAM*</pattern>
+    <template>
+      <srai>TELE</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WEB</pattern>
+    <template>
+      <random>
+        <li>Website Ciovita dapat diakses melalui http://bit.ly/webciovita</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>WEBSITE</pattern>
+    <template>
+      <srai>WEB</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* WEBSITE *</pattern>
+    <template>
+      <srai>WEB</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* WEBSITE</pattern>
+    <template>
+      <srai>WEB</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WEBSITE *</pattern>
+    <template>
+      <srai>WEB</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* WEBSITE*</pattern>
+    <template>
+      <srai>WEB</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WEBSITE*</pattern>
+    <template>
+      <srai>WEB</srai>
+    </template>
+  </category>
+</aiml>
